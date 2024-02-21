@@ -13,7 +13,7 @@ Grayish Blue: hsl(218, 22%, 67%)
 
 .attribution {
   margin: 0;
-    width: 90dvw;
+  width: 90dvw;
   position: absolute;
   top: 90%;
   left: 50%;
@@ -46,7 +46,8 @@ main {
 .cuadro {
   width: 40dvw;
   border-radius: .75rem;
-    box-shadow: 0dvw 0dvh 5dvw 0.5dvw hsla(0, 0%, 0%, 0.299);}
+  box-shadow: 0dvw 0.5dvh 2dvw 0.1dvw hsla(0, 0%, 0%, 0.202);
+}
 
 .presentacion {
   background-color: rgb(255, 255, 255);
@@ -54,6 +55,7 @@ main {
   border-top-right-radius: .375rem;
   color: hsl(218, 22%, 67%);
   padding: 0.2dvw 0dvw 1dvw 2dvw;
+
 }
 
 h1 {
@@ -71,6 +73,7 @@ h1 {
 
 p {
   font-size: 1dvw;
+  width: 90%
 }
 
 .parrafos {
@@ -86,7 +89,8 @@ p {
 }
 
 h2 {
-  font-size: 1.3dvw;
+  color: hsl(204, 43%, 93%);
+  font-size: 1.2dvw;
   margin: 2dvw 0 1dvw;
 }
 
@@ -98,7 +102,7 @@ h3 {
 }
 
 span {
-  color: hsl(179, 60%, 60%);
+  color: hsl(179, 65%, 75%);
   font-size: 2.4dvh;
   padding-left: 0.8dvw;
   font-weight: lighter;
@@ -106,7 +110,7 @@ span {
 
 .espaciado {
   font-size: 1.09dvw;
-  margin-top: -2.5dvh;
+  margin-top: -3dvh;
 }
 
 button {
@@ -115,18 +119,20 @@ button {
   padding: 1dvw 0;
   color: hsl(204, 43%, 93%);
   width: 90%;
-  margin: 1dvh 0dvw 3.2dvh;
+  margin: 0dvh 0dvw 3.3dvh;
   border-radius: .375rem;
-    box-shadow: 0dvw 0dvh 5dvw 0.5dvw hsla(0, 0%, 0%, 0.299);  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: 0dvw 0.5dvh 2dvw 0.1dvw hsla(0, 0%, 0%, 0.202);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: normal;
   font-size: 2.9dvh;
 }
 
 .parrafo-derecho {
-  background-color: hsl(179, 51%, 53%);
+  background-color: hsl(179, 49%, 65%);
   width: 100%;
   border-bottom-right-radius: .375rem;
   padding-left: 2dvw;
+  color: hsl(180, 100%, 89%)
 }
 
 /* ------------------------------ 375px------------------ */
@@ -134,29 +140,30 @@ button {
 @media(max-width:375px) {
   .cuadro {
     width: 80dvw;
-    line-height:1.5rem;
+    line-height: 1.4rem;
   }
 
   .presentacion {
-    padding: 0.2dvh 0dvh 4dvh 0dvh;
+    width: 100%;
+    padding: 0.1dvh 0dvh 3dvh 0dvh;
   }
 
-  h1,
-  h2 {
-    font-size: 2.25dvh;
-    margin: 3dvh 3dvh;
+  h1 {
+    font-size: 2.1dvh;
+    margin: 2.5dvh 3dvh 2.5dvh;
   }
 
   .parrafo-verde {
     font-weight: 700;
-    font-size: 1.7dvh;
-    margin-bottom: 2dvh;
+    font-size: 1.5dvh;
+    margin-bottom: 2.2dvh;
+    line-height: normal;
   }
 
   p {
+    width: 80%;
     font-size: 1.4dvh;
     margin: 0 3dvh;
-    
   }
 
   .parrafos {
@@ -170,32 +177,35 @@ button {
     border-bottom-left-radius: 0;
   }
 
+  h2 {
+    font-size: 1.8dvh;
+    margin: 2dvh 3dvh 2.6dvh;
+  }
+
   h3 {
-    font-size: 3.5dvh;
+    font-size: 3dvh;
     display: flex;
     align-items: center;
-    margin-top: -1dvh;
+    margin-top: 0dvh;
     margin-left: 3dvh;
   }
 
   span {
     font-size: 1.6dvh;
-    padding-left: 1.7dvh;
-    font-weight: lighter;
+    padding-left: 1dvh;
   }
 
   .espaciado {
-    font-size: 1.6dvh;
-    margin-top: -3dvh;
+    font-size: 1.5dvh;
+    margin-top: -2dvh;
     margin-bottom: 0dvh;
   }
 
-  button {    
+  button {
     padding: 1em 0;
     width: 80%;
-    box-shadow: 0dvw 0dvh 5dvw 0.5dvw hsla(0, 0%, 0%, 0.299);
     font-size: 1.6dvh;
-    margin: 3dvh 7dvw;
+    margin: 2.4dvh 7dvw;
   }
 
 
@@ -204,17 +214,21 @@ button {
     width: 100%;
     border-bottom-right-radius: .375rem;
     border-bottom-left-radius: .375rem;
+    padding-top: 1dvh;
     padding-left: 0dvw;
     padding-bottom: 2dvh;
-    line-height: 1.3rem;
+    line-height: 1.1rem;
   }
 
-    .attribution {
-      margin:0;
-      width: 90dvw;
-      /* position: absolute; */
-      top: 95%;
-      /* left: 50%; */
-      transform: translate(-50%, 0%);
-    }
+  .elementos {
+    margin-top: -1.4dvh;
+    color:
+  }
+
+  .attribution {
+    margin: 0;
+    width: 80dvw;
+    top: 96%;
+    transform: translate(-50%, 0%);
+  }
 }
