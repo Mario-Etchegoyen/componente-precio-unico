@@ -1,0 +1,142 @@
+/*
+
+### Primary
+Cyan: hsl(179, 62%, 43%)
+Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+Light Gray: hsl(204, 43%, 93%)
+Grayish Blue: hsl(218, 22%, 67%)
+
+*/
+
+
+.attribution {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: Karla;
+  font-size: 16px;
+  /* color: white; */
+  margin: 0%;
+  position: relative;
+  width: 100dvw;
+  height: 100dvh;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cuadro {
+  width: 40dvw;
+  /* max-height:100dvh; */
+  border-radius: .75rem;
+  box-shadow: 0dvw 0dvh 1dvw 0dvw hsl(218, 22%, 67%);
+}
+
+.presentacion {
+  /* display:flex;
+  flex-direction: column; */
+  /* justify-content: space-around; */
+  background-color: rgb(255, 255, 255);
+  /* width: 100%; */
+  /* height:60%; */
+  border-top-left-radius: .75rem;
+  border-top-right-radius: .75rem;
+  color: hsl(218, 22%, 67%);
+  padding: 0.2dvw 0dvw 1dvw 2dvw;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 1.65dvw;
+  margin: 3dvh 0;
+}
+
+.parrafo-verde {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  font-size: 1.2dvw;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 1dvw;
+}
+
+.parrafos {
+  color: hsl(204, 43%, 93%);
+  display: flex;
+  /* width: 100%; */
+  /* min-height: 60%; */
+}
+
+.parrafo-izquierdo {
+  background-color: hsl(179, 62%, 43%);
+  width: 100%;
+  padding-left: 2dvw;
+  border-bottom-left-radius: .75rem;
+}
+
+h2 {
+  font-size: 1.3dvw;
+  margin: 2dvw 0 1dvw;
+}
+
+h3 {
+  font-size: 2dvw;
+}
+
+span {
+  color: hsl(179, 60%, 60%);
+  font-size: 1.9dvh;
+  padding-left: 0.8dvw;
+  font-weight: lighter;
+}
+
+.precio-mensual {
+  display: flex;
+  align-items: center;
+  margin-top: -0.4dvh;
+}
+
+.espaciado {
+  font-size: 1.95dvh;
+  margin-top: -2.5dvh;
+
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  padding: 1dvw 0;
+  color: hsl(204, 43%, 93%);
+  width: 90%;
+  margin: 2dvh 0dvw 3dvh;
+  border-radius: .375rem;
+  box-shadow: 0dvw 0dvh 0.5dvw 0.1dvw hsl(218, 22%, 67%);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: lighter;
+}
+
+.parrafo-derecho {
+  background-color: hsl(179, 51%, 53%);
+  width: 100%;
+  border-bottom-right-radius: .75rem;
+  padding-left: 2dvw;
+}
