@@ -95,7 +95,7 @@ h2 {
 }
 
 h3 {
-  margin-top: 3dvh;
+  margin-top: 4dvh;
   font-size: 2dvw;
   display: flex;
   align-items: center;
@@ -103,14 +103,14 @@ h3 {
 
 span {
   color: hsl(179, 65%, 75%);
-  font-size: 2dvh;
+  font-size: 1.3dvw;
   padding-left: 0.8dvw;
   font-weight: lighter;
 }
 
 .espaciado {
-  font-size: 2.5dvh;
-  margin-top: -3dvh;
+  font-size: 1.07dvw;
+  margin-top: -2dvh;
 }
 
 button {
@@ -119,7 +119,7 @@ button {
   padding: 1dvw 0;
   color: hsl(204, 43%, 93%);
   width: 90%;
-  margin: 1dvh 0dvw 3.5dvh;
+  margin: 2dvh 0dvw 4dvh;
   border-radius: .375rem;
   box-shadow: 0dvw 0.5dvh 2dvw 0.1dvw hsla(0, 0%, 0%, 0.202);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -137,7 +137,7 @@ button {
 
 .elementos {
   font-size: 1dvw;
-  line-height: 3dvh;
+  line-height:2.7dvh;
   padding-bottom: 1dvh;
 }
 
