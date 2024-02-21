@@ -54,13 +54,13 @@ main {
   border-top-left-radius: .375rem;
   border-top-right-radius: .375rem;
   color: hsl(218, 22%, 67%);
-  padding: 0.2dvw 0dvw 1dvw 2dvw;
-
+  padding: 2dvh 0dvw 2dvh 2dvw;
+  line-height: 1rem
 }
 
 h1 {
   color: hsl(179, 62%, 43%);
-  font-size: 1.65dvw;
+  font-size: 1.6dvw;
   margin: 3dvh 0;
 }
 
@@ -68,7 +68,7 @@ h1 {
   color: hsl(71, 73%, 54%);
   font-weight: 700;
   font-size: 1.2dvw;
-  margin-bottom: 0;
+  margin-bottom: -1dvh;
 }
 
 p {
@@ -91,25 +91,25 @@ p {
 h2 {
   color: hsl(204, 43%, 93%);
   font-size: 1.2dvw;
-  margin: 2dvw 0 1dvw;
+  margin: 6dvh 0 1dvw;
 }
 
 h3 {
+  margin-top: 3dvh;
   font-size: 2dvw;
   display: flex;
   align-items: center;
-  margin-top: -0.4dvh;
 }
 
 span {
   color: hsl(179, 65%, 75%);
-  font-size: 2.4dvh;
+  font-size: 2dvh;
   padding-left: 0.8dvw;
   font-weight: lighter;
 }
 
 .espaciado {
-  font-size: 1.09dvw;
+  font-size: 2.5dvh;
   margin-top: -3dvh;
 }
 
@@ -119,21 +119,28 @@ button {
   padding: 1dvw 0;
   color: hsl(204, 43%, 93%);
   width: 90%;
-  margin: 0dvh 0dvw 3.3dvh;
+  margin: 1dvh 0dvw 3.5dvh;
   border-radius: .375rem;
   box-shadow: 0dvw 0.5dvh 2dvw 0.1dvw hsla(0, 0%, 0%, 0.202);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: normal;
-  font-size: 2.9dvh;
+  font-size: 1.07dvw;
 }
 
 .parrafo-derecho {
-  background-color: hsl(179, 49%, 65%);
+  background-color: hsl(179, 47%, 53%);
   width: 100%;
   border-bottom-right-radius: .375rem;
   padding-left: 2dvw;
   color: hsl(180, 100%, 89%)
 }
+
+.elementos {
+  font-size: 1dvw;
+  line-height: 3dvh;
+  padding-bottom: 1dvh;
+}
+
 
 /* ------------------------------ 375px------------------ */
 
@@ -222,7 +229,6 @@ button {
 
   .elementos {
     margin-top: -1.4dvh;
-    color:
   }
 
   .attribution {
