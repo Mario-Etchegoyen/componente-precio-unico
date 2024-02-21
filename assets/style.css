@@ -28,7 +28,6 @@ body {
   background-color: hsl(204, 43%, 93%);
   font-family: Karla;
   font-size: 16px;
-  /* color: white; */
   margin: 0%;
   position: relative;
   width: 100dvw;
@@ -44,20 +43,14 @@ main {
 
 .cuadro {
   width: 40dvw;
-  /* max-height:100dvh; */
   border-radius: .75rem;
   box-shadow: 0dvw 0dvh 1dvw 0dvw hsl(218, 22%, 67%);
 }
 
 .presentacion {
-  /* display:flex;
-  flex-direction: column; */
-  /* justify-content: space-around; */
   background-color: rgb(255, 255, 255);
-  /* width: 100%; */
-  /* height:60%; */
-  border-top-left-radius: .75rem;
-  border-top-right-radius: .75rem;
+  border-top-left-radius: .375rem;
+  border-top-right-radius: .375rem;
   color: hsl(218, 22%, 67%);
   padding: 0.2dvw 0dvw 1dvw 2dvw;
 }
@@ -82,15 +75,13 @@ p {
 .parrafos {
   color: hsl(204, 43%, 93%);
   display: flex;
-  /* width: 100%; */
-  /* min-height: 60%; */
 }
 
 .parrafo-izquierdo {
   background-color: hsl(179, 62%, 43%);
   width: 100%;
   padding-left: 2dvw;
-  border-bottom-left-radius: .75rem;
+  border-bottom-left-radius: .375rem;
 }
 
 h2 {
@@ -104,7 +95,7 @@ h3 {
 
 span {
   color: hsl(179, 60%, 60%);
-  font-size: 1.9dvh;
+  font-size: 2.4dvh;
   padding-left: 0.8dvw;
   font-weight: lighter;
 }
@@ -116,7 +107,7 @@ span {
 }
 
 .espaciado {
-  font-size: 1.95dvh;
+  font-size: 1.09dvw;
   margin-top: -2.5dvh;
 
 }
@@ -127,16 +118,65 @@ button {
   padding: 1dvw 0;
   color: hsl(204, 43%, 93%);
   width: 90%;
-  margin: 2dvh 0dvw 3dvh;
+  margin: 1dvh 0dvw 3.2dvh;
   border-radius: .375rem;
   box-shadow: 0dvw 0dvh 0.5dvw 0.1dvw hsl(218, 22%, 67%);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: lighter;
+  font-weight: normal;
+  font-size: 2.9dvh;
 }
 
 .parrafo-derecho {
   background-color: hsl(179, 51%, 53%);
   width: 100%;
-  border-bottom-right-radius: .75rem;
+  border-bottom-right-radius: .375rem;
   padding-left: 2dvw;
+}
+
+/* ------------------------------ 375px------------------ */
+
+@media(max-width:375px) {
+  .cuadro {
+    width: 80dvw;
+  }
+
+  .parrafos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .presentacion {
+    /* padding: 0.2dvw 0dvw 1dvw 2dvw; */
+  }
+
+  h1 {
+    font-size: 2.4dvh;
+    margin: 3dvh 0;
+  }
+
+  .parrafo-verde {
+    font-weight: 700;
+    font-size: 2dvh;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 2dvh;
+    margin-left:2dvw
+  }
+
+  .parrafo-izquierdo {
+    background-color: hsl(179, 62%, 43%);
+    width: 80dvw;
+    padding-left: 0dvw;
+    border-bottom-left-radius: 0;
+  }
+
+  .parrafo-derecho {
+    background-color: hsl(179, 51%, 53%);
+    width: 100%;
+    border-bottom-right-radius: .375rem;
+    border-bottom-left-radius: .375rem;
+    padding-left: 0dvw;
+  }
 }
