@@ -12,6 +12,8 @@ Grayish Blue: hsl(218, 22%, 67%)
 
 
 .attribution {
+  margin: 0;
+    width: 90dvw;
   position: absolute;
   top: 90%;
   left: 50%;
@@ -131,28 +133,30 @@ button {
 
 @media(max-width:375px) {
   .cuadro {
-    width: 90dvw;
+    width: 80dvw;
+    line-height:1.5rem;
   }
 
   .presentacion {
-    padding: 0.2dvh 0dvh 5dvh 0dvh;
+    padding: 0.2dvh 0dvh 4dvh 0dvh;
   }
 
   h1,
   h2 {
-    font-size: 2.4dvh;
+    font-size: 2.25dvh;
     margin: 3dvh 3dvh;
   }
 
   .parrafo-verde {
     font-weight: 700;
-    font-size: 2dvh;
+    font-size: 1.7dvh;
     margin-bottom: 2dvh;
   }
 
   p {
-    font-size: 1.7dvh;
+    font-size: 1.4dvh;
     margin: 0 3dvh;
+    
   }
 
   .parrafos {
@@ -161,38 +165,37 @@ button {
   }
 
   .parrafo-izquierdo {
-    width: 90dvw;
+    width: 100%;
     padding-left: 0dvh;
     border-bottom-left-radius: 0;
   }
 
   h3 {
-    font-size: 4dvh;
+    font-size: 3.5dvh;
     display: flex;
     align-items: center;
-    margin-top: -0.4dvh;
+    margin-top: -1dvh;
     margin-left: 3dvh;
   }
 
   span {
-    font-size: 2dvh;
+    font-size: 1.6dvh;
     padding-left: 1.7dvh;
     font-weight: lighter;
   }
 
   .espaciado {
-    font-size: 2dvh;
+    font-size: 1.6dvh;
     margin-top: -3dvh;
-    margin-bottom: 1dvh;
+    margin-bottom: 0dvh;
   }
 
   button {    
     padding: 1em 0;
-    width: 76dvw;
+    width: 80%;
     box-shadow: 0dvw 0dvh 5dvw 0.5dvw hsla(0, 0%, 0%, 0.299);
-    font-weight: normal;
-    font-size: 2dvh;
-    margin: 3dvh 7dvw
+    font-size: 1.6dvh;
+    margin: 3dvh 7dvw;
   }
 
 
@@ -202,5 +205,16 @@ button {
     border-bottom-right-radius: .375rem;
     border-bottom-left-radius: .375rem;
     padding-left: 0dvw;
+    padding-bottom: 2dvh;
+    line-height: 1.3rem;
   }
+
+    .attribution {
+      margin:0;
+      width: 90dvw;
+      /* position: absolute; */
+      top: 95%;
+      /* left: 50%; */
+      transform: translate(-50%, 0%);
+    }
 }
